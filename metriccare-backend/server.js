@@ -31,5 +31,5 @@ app.post("/api/login", (req, res) => {
   res.status(200).json({ message: "Login successful!", user });
 });
 
-const PORT = 5001;
+const PORT = 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
